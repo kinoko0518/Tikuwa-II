@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tikuwa_ii",
+  "version": "1.0.0",
+  "name": "Tikuwa II",
+  "authors": [
+    "6osciola"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.tikuwa.ii.TikuwaIiMod"
+    ],
+    "client": [
+      "net.mcreator.tikuwa.ii.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "tikuwa_ii.mixins.json"
+  ]
+}

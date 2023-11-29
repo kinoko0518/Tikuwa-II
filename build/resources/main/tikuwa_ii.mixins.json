@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.tikuwa.ii.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"TikuwaIiModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

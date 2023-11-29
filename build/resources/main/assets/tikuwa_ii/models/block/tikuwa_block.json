@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tikuwa_ii:block/tikuwa_block_1",
+    "up": "tikuwa_ii:block/tikuwa_block_1",
+    "north": "tikuwa_ii:block/tikuwa_block",
+    "east": "tikuwa_ii:block/tikuwa_block",
+    "south": "tikuwa_ii:block/tikuwa_block",
+    "west": "tikuwa_ii:block/tikuwa_block",
+    "particle": "tikuwa_ii:block/tikuwa_block_1"
+  },
+  "render_type": "solid"
+}
