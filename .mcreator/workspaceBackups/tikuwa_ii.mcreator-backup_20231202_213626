@@ -110,20 +110,6 @@
           "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_semiconductor.json"
         ]
       }
-    },
-    {
-      "name": "SatumaAge",
-      "type": "item",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "satuma_age",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/item/SatumaAgeItem.java",
-          "src/main/resources/assets/tikuwa_ii/models/item/satuma_age.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -134,8 +120,7 @@
       "item.tikuwa_ii.mashed_fish": "Mashed Fish",
       "block.tikuwa_ii.tikuwa_block": "Tikuwa Block",
       "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread",
-      "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor",
-      "item.tikuwa_ii.satuma_age": "Satuma Age"
+      "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor"
     }
   },
   "foldersRoot": {

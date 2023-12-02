@@ -23,8 +23,8 @@
       "registry_name": "mashed_fish",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/item/MashedFishItem.java",
-          "src/main/resources/assets/tikuwa_ii/models/item/mashed_fish.json"
+          "src/main/resources/assets/tikuwa_ii/models/item/mashed_fish.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/MashedFishItem.java"
         ]
       }
     },
@@ -50,8 +50,8 @@
       "registry_name": "tikuwa_bread",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_bread.json",
-          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaBreadItem.java"
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaBreadItem.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_bread.json"
         ]
       }
     },
@@ -67,6 +67,49 @@
           "src/main/resources/data/tikuwa_ii/recipes/tikuwa_bread_making.json"
         ]
       }
+    },
+    {
+      "name": "TikuwaBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json",
+          "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
+          "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TikuwaBlockCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa_ii/recipes/tikuwa_block_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "TikuwaSemiconductor",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_semiconductor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaSemiconductorItem.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_semiconductor.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -75,7 +118,9 @@
     "en_us": {
       "item.tikuwa_ii.tikuwa": "Tikuwa",
       "item.tikuwa_ii.mashed_fish": "Mashed Fish",
-      "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread"
+      "block.tikuwa_ii.tikuwa_block": "Tikuwa Block",
+      "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread",
+      "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor"
     }
   },
   "foldersRoot": {
@@ -86,16 +131,19 @@
     "modid": "tikuwa_ii",
     "modName": "Tikuwa II",
     "version": "1.0.0",
-    "author": "k0use1, MCreator",
+    "author": "6osciola",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "farmersdelight"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.tikuwa.ii",
     "lockBaseModFiles": false
   },

@@ -13,6 +13,7 @@ import net.minecraft.core.Registry;
 import net.mcreator.tikuwa.ii.item.TikuwaSemiconductorItem;
 import net.mcreator.tikuwa.ii.item.TikuwaItem;
 import net.mcreator.tikuwa.ii.item.TikuwaBreadItem;
+import net.mcreator.tikuwa.ii.item.SatumaAgeItem;
 import net.mcreator.tikuwa.ii.item.MashedFishItem;
 import net.mcreator.tikuwa.ii.TikuwaIiMod;
 
@@ -24,6 +25,7 @@ public class TikuwaIiModItems {
 	public static Item TIKUWA_BREAD;
 	public static Item TIKUWA_BLOCK;
 	public static Item TIKUWA_SEMICONDUCTOR;
+	public static Item SATUMA_AGE;
 
 	public static void load() {
 		MASHED_FISH = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TikuwaIiMod.MODID, "mashed_fish"), new MashedFishItem());
@@ -32,6 +34,7 @@ public class TikuwaIiModItems {
 		TIKUWA_BLOCK = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TikuwaIiMod.MODID, "tikuwa_block"), new BlockItem(TikuwaIiModBlocks.TIKUWA_BLOCK, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register(content -> content.accept(TIKUWA_BLOCK));
 		TIKUWA_SEMICONDUCTOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TikuwaIiMod.MODID, "tikuwa_semiconductor"), new TikuwaSemiconductorItem());
+		SATUMA_AGE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TikuwaIiMod.MODID, "satuma_age"), new SatumaAgeItem());
 	}
 
 	public static void clientLoad() {

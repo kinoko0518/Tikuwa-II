@@ -23,8 +23,8 @@
       "registry_name": "mashed_fish",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/item/MashedFishItem.java",
-          "src/main/resources/assets/tikuwa_ii/models/item/mashed_fish.json"
+          "src/main/resources/assets/tikuwa_ii/models/item/mashed_fish.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/MashedFishItem.java"
         ]
       }
     },
@@ -50,8 +50,8 @@
       "registry_name": "tikuwa_bread",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_bread.json",
-          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaBreadItem.java"
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaBreadItem.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_bread.json"
         ]
       }
     },
@@ -77,10 +77,10 @@
       "registry_name": "tikuwa_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json",
           "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
-          "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json",
-          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json"
+          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
+          "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json"
         ]
       }
     },
@@ -136,7 +136,9 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "farmersdelight"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
