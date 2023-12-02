@@ -23,15 +23,15 @@
       "registry_name": "mashed_fish",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/item/MashedFishItem.java",
-          "src/main/resources/assets/tikuwa_ii/models/item/mashed_fish.json"
+          "src/main/resources/assets/tikuwa_ii/models/item/mashed_fish.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/MashedFishItem.java"
         ]
       }
     },
     {
       "name": "MashedFishToTikuwa",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mashed_fish_to_tikuwa",
@@ -58,7 +58,7 @@
     {
       "name": "TikuwaBreadMaking",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tikuwa_bread_making",
@@ -71,15 +71,15 @@
     {
       "name": "TikuwaBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tikuwa_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
-          "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
           "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json",
+          "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
           "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json"
         ]
       }
@@ -87,7 +87,7 @@
     {
       "name": "TikuwaBlockCraft",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tikuwa_block_craft",
@@ -100,14 +100,115 @@
     {
       "name": "TikuwaSemiconductor",
       "type": "item",
-      "sortid": 8,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tikuwa_semiconductor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaSemiconductorItem.java",
-          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_semiconductor.json"
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_semiconductor.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaSemiconductorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fishfeednormal",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishfeednormal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tikuwa/ii/item/FishfeednormalItem.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/fishfeednormal.json"
+        ]
+      }
+    },
+    {
+      "name": "Fishfeednormalrecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishfeednormalrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa_ii/recipes/fish_feed.json"
+        ]
+      }
+    },
+    {
+      "name": "Fishfeedstag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishfeedstag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa/tags/items/fish_feeds.json"
+        ]
+      }
+    },
+    {
+      "name": "Fishnetgui",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishnetgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tikuwa/ii/world/inventory/FishnetguiMenu.java",
+          "src/main/java/net/mcreator/tikuwa/ii/client/gui/FishnetguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Fishnet",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishnet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/blockstates/fishnet.json",
+          "src/main/resources/assets/tikuwa_ii/models/item/fishnet.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/entity/FishnetBlockEntity.java",
+          "src/main/resources/assets/tikuwa_ii/models/block/fishnet.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/FishnetBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Fish_net_tick_procedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_net_tick_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tikuwa/ii/procedures/Fish_net_tick_procedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -117,10 +218,23 @@
   "language_map": {
     "en_us": {
       "item.tikuwa_ii.tikuwa": "Tikuwa",
+      "item.tikuwa_ii.fishfeednormal": "Fish Feed",
+      "gui.tikuwa_ii.fishnetgui.label_fish_net": "Fish Net",
       "item.tikuwa_ii.mashed_fish": "Mashed Fish",
       "block.tikuwa_ii.tikuwa_block": "Tikuwa Block",
+      "block.tikuwa_ii.fishnet": "Fishnet",
       "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread",
       "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor"
+    },
+    "ja_jp": {
+      "item.tikuwa_ii.tikuwa": "ちくわ",
+      "item.tikuwa_ii.fishfeednormal": "魚の餌",
+      "gui.tikuwa_ii.fishnetgui.label_fish_net": "漁網",
+      "item.tikuwa_ii.mashed_fish": "魚のすり身",
+      "block.tikuwa_ii.tikuwa_block": "ちくわブロック",
+      "block.tikuwa_ii.fishnet": "漁網",
+      "item.tikuwa_ii.tikuwa_bread": "ちくわパン",
+      "item.tikuwa_ii.tikuwa_semiconductor": "ちくわ中央演算処理装置"
     }
   },
   "foldersRoot": {

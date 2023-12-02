@@ -1,0 +1,9 @@
+{
+  "parent": "tikuwa_ii:custom/fish_net",
+  "textures": {
+    "all": "tikuwa_ii:block/fish_net",
+    "particle": "tikuwa_ii:block/fish_net",
+    "0": "tikuwa_ii:block/fish_net"
+  },
+  "render_type": "solid"
+}

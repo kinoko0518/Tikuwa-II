@@ -12,6 +12,7 @@
 */
 package net.mcreator.tikuwa.ii;
 
+import net.mcreator.tikuwa.ii.init.TikuwaIiModScreens;
 import net.mcreator.tikuwa.ii.init.TikuwaIiModBlocks;
 
 import net.fabricmc.api.Environment;
@@ -24,6 +25,7 @@ public class ClientInit implements ClientModInitializer {
 	public void onInitializeClient() {
 
 		TikuwaIiModBlocks.clientLoad();
+		TikuwaIiModScreens.load();
 
 	}
 }

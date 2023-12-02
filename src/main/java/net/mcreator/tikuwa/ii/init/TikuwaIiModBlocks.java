@@ -10,16 +10,20 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.tikuwa.ii.block.TikuwaBlockBlock;
+import net.mcreator.tikuwa.ii.block.FishnetBlock;
 import net.mcreator.tikuwa.ii.TikuwaIiMod;
 
 public class TikuwaIiModBlocks {
 	public static Block TIKUWA_BLOCK;
+	public static Block FISHNET;
 
 	public static void load() {
 		TIKUWA_BLOCK = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(TikuwaIiMod.MODID, "tikuwa_block"), new TikuwaBlockBlock());
+		FISHNET = Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(TikuwaIiMod.MODID, "fishnet"), new FishnetBlock());
 	}
 
 	public static void clientLoad() {
 		TikuwaBlockBlock.clientInit();
+		FishnetBlock.clientInit();
 	}
 }

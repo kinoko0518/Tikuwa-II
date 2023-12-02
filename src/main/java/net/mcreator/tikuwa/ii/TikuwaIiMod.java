@@ -15,8 +15,11 @@ package net.mcreator.tikuwa.ii;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.mcreator.tikuwa.ii.init.TikuwaIiModProcedures;
+import net.mcreator.tikuwa.ii.init.TikuwaIiModMenus;
 import net.mcreator.tikuwa.ii.init.TikuwaIiModItems;
 import net.mcreator.tikuwa.ii.init.TikuwaIiModBlocks;
+import net.mcreator.tikuwa.ii.init.TikuwaIiModBlockEntities;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -30,6 +33,11 @@ public class TikuwaIiMod implements ModInitializer {
 
 		TikuwaIiModBlocks.load();
 		TikuwaIiModItems.load();
+		TikuwaIiModBlockEntities.load();
+
+		TikuwaIiModProcedures.load();
+
+		TikuwaIiModMenus.load();
 
 	}
 }

@@ -1,0 +1,233 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tikuwa",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MashedFish",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mashed_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/models/item/mashed_fish.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/MashedFishItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MashedFishToTikuwa",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mashed_fish_to_tikuwa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa_ii/recipes/mashed_fish_to_tikuwa.json"
+        ]
+      }
+    },
+    {
+      "name": "TikuwaBread",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_bread",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_bread.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaBreadItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TikuwaBreadMaking",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_bread_making",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa_ii/recipes/tikuwa_bread_making.json"
+        ]
+      }
+    },
+    {
+      "name": "TikuwaBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json",
+          "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TikuwaBlockCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa_ii/recipes/tikuwa_block_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "TikuwaSemiconductor",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tikuwa_semiconductor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_semiconductor.json",
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaSemiconductorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fishfeednormal",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishfeednormal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tikuwa/ii/item/FishfeednormalItem.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/fishfeednormal.json"
+        ]
+      }
+    },
+    {
+      "name": "Fishfeednormalrecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishfeednormalrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa_ii/recipes/fish_feed.json"
+        ]
+      }
+    },
+    {
+      "name": "Fishfeedstag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishfeedstag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tikuwa/tags/items/fish_feeds.json"
+        ]
+      }
+    },
+    {
+      "name": "Fishnetgui",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishnetgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tikuwa/ii/world/inventory/FishnetguiMenu.java",
+          "src/main/java/net/mcreator/tikuwa/ii/client/gui/FishnetguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Fishnet",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishnet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tikuwa_ii/blockstates/fishnet.json",
+          "src/main/resources/assets/tikuwa_ii/models/item/fishnet.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/entity/FishnetBlockEntity.java",
+          "src/main/resources/assets/tikuwa_ii/models/block/fishnet.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/FishnetBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.tikuwa_ii.tikuwa": "Tikuwa",
+      "item.tikuwa_ii.fishfeednormal": "Fish Feed",
+      "gui.tikuwa_ii.fishnetgui.label_fish_net": "Fish Net",
+      "item.tikuwa_ii.mashed_fish": "Mashed Fish",
+      "block.tikuwa_ii.tikuwa_block": "Tikuwa Block",
+      "block.tikuwa_ii.fishnet": "Fishnet",
+      "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread",
+      "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor"
+    },
+    "ja_jp": {
+      "item.tikuwa_ii.tikuwa": "ちくわ",
+      "item.tikuwa_ii.fishfeednormal": "魚の餌",
+      "gui.tikuwa_ii.fishnetgui.label_fish_net": "Fish Net",
+      "item.tikuwa_ii.mashed_fish": "魚のすり身",
+      "block.tikuwa_ii.tikuwa_block": "ちくわブロック",
+      "block.tikuwa_ii.fishnet": "Fishnet",
+      "item.tikuwa_ii.tikuwa_bread": "ちくわパン",
+      "item.tikuwa_ii.tikuwa_semiconductor": "ちくわ中央演算処理装置"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tikuwa_ii",
+    "modName": "Tikuwa II",
+    "version": "1.0.0",
+    "author": "6osciola",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tikuwa.ii",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

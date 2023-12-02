@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class TikuwaBlockBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().sound(SoundType.FROGLIGHT).strength(1f);
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().sound(SoundType.FROGLIGHT).strength(1f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 
 	public TikuwaBlockBlock() {
 		super(PROPERTIES);

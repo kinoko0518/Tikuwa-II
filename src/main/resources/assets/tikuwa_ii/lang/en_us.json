@@ -1,7 +1,10 @@
 {
   "item.tikuwa_ii.tikuwa": "Tikuwa",
+  "item.tikuwa_ii.fishfeednormal": "Fish Feed",
+  "gui.tikuwa_ii.fishnetgui.label_fish_net": "Fish Net",
   "item.tikuwa_ii.mashed_fish": "Mashed Fish",
   "block.tikuwa_ii.tikuwa_block": "Tikuwa Block",
+  "block.tikuwa_ii.fishnet": "Fishnet",
   "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread",
   "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor"
 }
