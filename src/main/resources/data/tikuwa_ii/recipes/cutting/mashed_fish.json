@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cod_slice"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "tikuwa_ii:mashed_fish"
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}
