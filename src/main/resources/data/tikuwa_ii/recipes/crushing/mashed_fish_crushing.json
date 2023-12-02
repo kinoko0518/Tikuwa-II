@@ -1,0 +1,16 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "tikuwa_ii:mashed_fish",
+      "chance": 0.8
+    }
+  ],
+  "processingTime": 20
+}
