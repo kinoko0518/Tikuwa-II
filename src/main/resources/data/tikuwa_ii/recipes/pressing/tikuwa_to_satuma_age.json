@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "tikuwa_ii:tikuwa"
+    }
+  ],
+  "results": [
+    {
+      "item": "tikuwa_ii:satuma_age"
+    }
+  ]
+}
