@@ -77,17 +77,10 @@
       "registry_name": "tikuwa_block",
       "metadata": {
         "files": [
-<<<<<<<< HEAD:.mcreator/workspaceBackups/tikuwa_ii.mcreator-backup_20231202_191922
-          "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json",
-          "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
-          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
-          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json"
-========
           "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json",
           "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
           "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
           "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json"
->>>>>>>> 9566dc02338c20c1409e2debfccd683f377ac068:.mcreator/workspaceBackups/tikuwa_ii.mcreator-backup_20231202_162910
         ]
       }
     },
@@ -117,61 +110,6 @@
           "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_semiconductor.json"
         ]
       }
-<<<<<<<< HEAD:.mcreator/workspaceBackups/tikuwa_ii.mcreator-backup_20231202_191922
-    },
-    {
-      "name": "Fishfeednormal",
-      "type": "item",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fishfeednormal",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/item/FishfeednormalItem.java",
-          "src/main/resources/assets/tikuwa_ii/models/item/fishfeednormal.json"
-        ]
-      }
-    },
-    {
-      "name": "Fishfeednormalrecipe",
-      "type": "recipe",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fishfeednormalrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tikuwa_ii/recipes/fish_feed.json"
-        ]
-      }
-    },
-    {
-      "name": "Fishfeedstag",
-      "type": "tag",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fishfeedstag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tikuwa/tags/items/fish_feeds.json"
-        ]
-      }
-    },
-    {
-      "name": "Fishnetgui",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fishnetgui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tikuwa/ii/world/inventory/FishnetguiMenu.java",
-          "src/main/java/net/mcreator/tikuwa/ii/client/gui/FishnetguiScreen.java"
-        ]
-      }
-========
->>>>>>>> 9566dc02338c20c1409e2debfccd683f377ac068:.mcreator/workspaceBackups/tikuwa_ii.mcreator-backup_20231202_162910
     }
   ],
   "variable_elements": [],
@@ -179,7 +117,6 @@
   "language_map": {
     "en_us": {
       "item.tikuwa_ii.tikuwa": "Tikuwa",
-      "item.tikuwa_ii.fishfeednormal": "Fish Feed",
       "item.tikuwa_ii.mashed_fish": "Mashed Fish",
       "block.tikuwa_ii.tikuwa_block": "Tikuwa Block",
       "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread",

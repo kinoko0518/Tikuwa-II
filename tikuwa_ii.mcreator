@@ -50,8 +50,8 @@
       "registry_name": "tikuwa_bread",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_bread.json",
-          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaBreadItem.java"
+          "src/main/java/net/mcreator/tikuwa/ii/item/TikuwaBreadItem.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_bread.json"
         ]
       }
     },
@@ -77,10 +77,17 @@
       "registry_name": "tikuwa_block",
       "metadata": {
         "files": [
+<<<<<<< HEAD
           "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json",
           "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
           "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
           "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json"
+=======
+          "src/main/resources/assets/tikuwa_ii/models/item/tikuwa_block.json",
+          "src/main/resources/assets/tikuwa_ii/models/block/tikuwa_block.json",
+          "src/main/java/net/mcreator/tikuwa/ii/block/TikuwaBlockBlock.java",
+          "src/main/resources/assets/tikuwa_ii/blockstates/tikuwa_block.json"
+>>>>>>> 9566dc02338c20c1409e2debfccd683f377ac068
         ]
       }
     },
@@ -211,6 +218,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "SatumaAge",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satuma_age",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tikuwa/ii/item/SatumaAgeItem.java",
+          "src/main/resources/assets/tikuwa_ii/models/item/satuma_age.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -224,6 +245,7 @@
       "block.tikuwa_ii.tikuwa_block": "Tikuwa Block",
       "block.tikuwa_ii.fishnet": "Fishnet",
       "item.tikuwa_ii.tikuwa_bread": "Tikuwa Bread",
+<<<<<<< HEAD
       "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor"
     },
     "ja_jp": {
@@ -235,6 +257,10 @@
       "block.tikuwa_ii.fishnet": "漁網",
       "item.tikuwa_ii.tikuwa_bread": "ちくわパン",
       "item.tikuwa_ii.tikuwa_semiconductor": "ちくわ中央演算処理装置"
+=======
+      "item.tikuwa_ii.tikuwa_semiconductor": "Tikuwa Semiconductor",
+      "item.tikuwa_ii.satuma_age": "Satuma Age"
+>>>>>>> 9566dc02338c20c1409e2debfccd683f377ac068
     }
   },
   "foldersRoot": {
@@ -250,7 +276,9 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "farmersdelight"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
